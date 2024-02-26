@@ -1,0 +1,5 @@
+diff -r Buggy-Version/2-0-data-structures-and-algorithms/2-2-4-linked-list/src/main/java/com/bobocode/cs/LinkedList.java Patched-Version/2-0-data-structures-and-algorithms/2-2-4-linked-list/src/main/java/com/bobocode/cs/LinkedList.java
+175c175
+<         if (index == 0) {
+---
+>         if (index == 0 && !isEmpty()) {
